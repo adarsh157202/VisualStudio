@@ -1,0 +1,8 @@
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\consumeApi.exe
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\demo.html
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\consumeApi.dll
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\consumeApi.deps.json
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\consumeApi.runtimeconfig.json
+C:\Users\adarshkumar\source\repos\consumeApi\consumeApi\obj\Release\netcoreapp3.1\PubTmp\Out\consumeApi.pdb

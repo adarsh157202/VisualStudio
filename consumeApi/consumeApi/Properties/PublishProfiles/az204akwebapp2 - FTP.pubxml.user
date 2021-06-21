@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP9PV2dl4xE6EdmM55qR4TwAAAAACAAAAAAADZgAAwAAAABAAAACOKrEO9IIgrwjmLFO4AuUcAAAAAASAAACgAAAAEAAAAEQG3Q3J/Ghvh54DJiL+oxKAAAAAI+D9Mhfz9PokOICqzZH1tdcpEh7i81AIhrazxSVQ0WGQlR8xi6aiSR5CC8AFpIFBIQ5IKRKWfSCET8VyXoTarevm+XqwMZZ7c/YkvhdH1uYceo3yy1u54czykvez77Bi2Ejz0uPw+vRCrjm2EJ/phCW9AogTP+KyTUQyCXzdYxUUAAAA1B677hG+RaCsulUfwxO5f9ZdETU=</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-blu-233.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>06/02/2021 16:21:41</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>06/02/2021 16:21:41</publishTime>
+    </File>
+    <File Include="consumeApi.deps.json">
+      <publishTime>06/04/2021 18:27:42</publishTime>
+    </File>
+    <File Include="consumeApi.dll">
+      <publishTime>06/04/2021 18:27:42</publishTime>
+    </File>
+    <File Include="consumeApi.exe">
+      <publishTime>06/04/2021 18:27:42</publishTime>
+    </File>
+    <File Include="consumeApi.pdb">
+      <publishTime>06/04/2021 18:27:42</publishTime>
+    </File>
+    <File Include="consumeApi.runtimeconfig.json">
+      <publishTime>06/04/2021 18:01:53</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>06/04/2021 18:27:42</publishTime>
+    </File>
+    <File Include="wwwroot/demo.html">
+      <publishTime>06/04/2021 18:26:50</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

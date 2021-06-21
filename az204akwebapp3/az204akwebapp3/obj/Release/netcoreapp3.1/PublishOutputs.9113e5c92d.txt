@@ -1,0 +1,7 @@
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\az204akwebapp3.exe
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\az204akwebapp3.dll
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\az204akwebapp3.deps.json
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\az204akwebapp3.runtimeconfig.json
+C:\Users\adarshkumar\source\repos\az204akwebapp3\az204akwebapp3\obj\Release\netcoreapp3.1\PubTmp\Out\az204akwebapp3.pdb

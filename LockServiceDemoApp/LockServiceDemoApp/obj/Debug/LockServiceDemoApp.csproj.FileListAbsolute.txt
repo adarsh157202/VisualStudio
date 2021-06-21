@@ -1,0 +1,12 @@
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\LockServiceDemoApp.exe.config
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\LockServiceDemoApp.exe
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\LockServiceDemoApp.pdb
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\Microsoft.SharePoint.dll
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\Microsoft.Web.Administration.dll
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\Microsoft.IdentityModel.Extensions.dll
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\bin\Debug\Microsoft.SharePoint.xml
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\obj\Debug\LockServiceDemoApp.csprojAssemblyReference.cache
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\obj\Debug\LockServiceDemoApp.csproj.CoreCompileInputs.cache
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\obj\Debug\LockServiceDemoApp.csproj.CopyComplete
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\obj\Debug\LockServiceDemoApp.exe
+C:\Users\adarshkumar\source\repos\LockServiceDemoApp\LockServiceDemoApp\obj\Debug\LockServiceDemoApp.pdb

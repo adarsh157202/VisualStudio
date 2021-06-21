@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hCDN/BZt5yYcBh+9ymEv0Vdc+yZHfGgRNoojQiIaiFX1MxTIw1NSoIGH4HRIefbR0ewwozRZ0+c8/JK+jajIkQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\adarshkumar\\source\\repos\\az204akwebapp3\\az204akwebapp3\\az204akwebapp3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adarshkumar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

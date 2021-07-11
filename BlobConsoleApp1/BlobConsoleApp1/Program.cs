@@ -54,11 +54,12 @@ namespace BlobConsoleApp1
             BlobContainerClient blobContainerClient = blobServiceClient.GetBlobContainerClient(_container_name);
             BlobClient blobClient = blobContainerClient.GetBlobClient(_blob_name);
             BlobProperties properties = blobClient.GetProperties();
-
+            
             Console.WriteLine($"created on ={properties.CreatedOn}");
             Console.WriteLine($"encryption key on ={properties.EncryptionKeySha256}");
 
             IDictionary<string ,string> metadatas=properties.Metadata;
+            
             foreach(KeyValuePair<string,string> metadata in metadatas)
             {
                 Console.WriteLine($"Key ={metadata.Key}");
@@ -66,8 +67,22 @@ namespace BlobConsoleApp1
             }
             GetBlobTagResult tags=blobClient.GetTags();
             Console.WriteLine($"{tags.Tags}");
+            string key = "Company",value="Deloitte";
 
+            bool response=SetMetadata(blobClient,metadatas,key,value);
             Console.ReadLine();
+        }
+        public static bool SetMetadata(BlobClient blobClient,IDictionary<string,string>metaData,string key,string value)
+        {
+            try
+            {
+                metaData.Add(key,value);
+                blobClient.SetMetadata(metaData);
+                return true;
+            }
+            catch (Exception ex) {
+                return false;            
+            }
         }
         public static Uri GenerateSAS(string connectionString, string containerName, string blobName)
         {

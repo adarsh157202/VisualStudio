@@ -62,24 +62,24 @@ namespace LockServiceDemoAppSerial2
                                 Console.WriteLine($"Locking in progres for SiteURL {siteUrl}");
                                 try
                                 {
-                                    using (SPSite sp = new SPSite(siteUrl))
-                                    {
-                                        using (SPWeb web = sp.OpenWeb())
-                                        {
-                                            foreach (string supportUser in ensuredSupportUsers)
-                                            {
-                                                web.EnsureUser(supportUser);
-                                            }
-                                        }
-                                        if (data.Action == "lock")
-                                        {
-                                            sp.ReadOnly = true;
-                                        }
-                                        else
-                                        {
-                                            sp.ReadOnly = false;
-                                        }
-                                    }
+                                    //using (SPSite sp = new SPSite(siteUrl))
+                                    //{
+                                    //    using (SPWeb web = sp.OpenWeb())
+                                    //    {
+                                    //        foreach (string supportUser in ensuredSupportUsers)
+                                    //        {
+                                    //            web.EnsureUser(supportUser);
+                                    //        }
+                                    //    }
+                                    //    if (data.Action == "lock")
+                                    //    {
+                                    //        sp.ReadOnly = true;
+                                    //    }
+                                    //    else
+                                    //    {
+                                    //        sp.ReadOnly = false;
+                                    //    }
+                                    //}
                                     //update ETLClientSiteMapping
                                     try
                                     {

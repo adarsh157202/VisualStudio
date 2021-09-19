@@ -5,33 +5,66 @@
 </head>
 
 <body>
-	<h1>Welcome to my First Web Page</h1>
+	<h1 id="welcome">Welcome to my First Web Page</h1>
 	<p>This is a HTML page I created in VSCode with the samples of the tags</p>
-	<h1>This is h1 tag</h1>
-	<h2>This is h2 tag</h2>
-	<h3>this is h3 tag</h3>
-	<h4>this is h4 tag</h4>
-	<h5>this is h5 tag</h5>
-	<h6>this is h6 tag</h6>
-	<h7>this is h7(note that HTML has only six levels of headings)</h7>
-	<p>This is p tag</p>
+	<p>These are lists of HTML tags learned so far</p>
+	<ul>
+		<li><a href="#heading">h</a></li>
+		<li><a href="#paragraph">p</a></li>
+		<li><a href="#bold">b</a></li>
+		<li><a href="#italics">i</a></li>
+		<li><a href="#superscript">superscript</a></li>
+		<li><a href="#subscript">subscript</a></li>
+		<li><a href="#horizontalrule">horizontalrule</a></li>
+		<li><a href="#strong">strong</a></li>
+		<li><a href="#emphasis">emphasis</a></li>
+		<li><a href="#blockquoteandq">blockquoteandq</a></li>
+		<li><a href="#abbreviation">abbreviation</a></li>
+		<li><a href="#cite">cite</a></li>
+		<li><a href="#definition">definition</a></li>
+		<li><a href="#address">address</a></li>
+		<li><a href="#insertanddelete">insertanddelete</a></li>
+		<li><a href="#s">s</a></li>
+		<li><a href="#lists">lists</a></li>
+		<li><a href="#anchor">anchor</a></li>
+		<li><a href="#image">img</a></li>
+		<li><a href="#FiguresAndFigcaption">FiguresAndFigcaption</a></li>
+		<li><a href="#table_tr_td_th_thead_tbody_tfoot">table_tr_td_th_thead_tbody_tfoot</a></li>
+		<li><a href="#forms_and_formcontrols">forms_and_formcontrols</a></li>
+		<li><a href="#iframes">iFrames</a></li>
+
+	</ul>
+	<div id="heading">
+		<p>These are heading tags</p>
+		<h1>This is h1 tag</h1>
+		<h2>This is h2 tag</h2>
+		<h3>this is h3 tag</h3>
+		<h4>this is h4 tag</h4>
+		<h5>this is h5 tag</h5>
+		<h6>this is h6 tag</h6>
+		<h7>this is h7(note that HTML has only six levels of headings)</h7>
+	</div>
+
+	<p id="paragraph">This is p tag</p>
 	<p>By default a browser will show each paragraph on a new line wiith some space between it and any subsequent
 		paragraph</p>
-	<b>this is b tag used to make texts appear in bold</b>
-	<i>this is i tag used to make texts appear in italics</i>
-	<p>this is an example for sup tag <br />E=MC<sup>2</sup></p>
-	<p>this is an exapmle of sub tag <br />CO<sub>2</sub></p>
-	<p>to create a break between themes such as a change of topic in a book or a new scene in a play we can use hr tag
+	<b id="bold">this is b tag used to make texts appear in bold</b>
+	<i id="italics">this is i tag used to make texts appear in italics</i>
+	<p id="superscript">this is an example for sup tag <br />E=MC<sup>2</sup></p>
+	<p id="subscript">this is an exapmle of sub tag <br />CO<sub>2</sub></p>
+	<p id="horizontalrule">to create a break between themes such as a change of topic in a book or a new scene in a play
+		we can use hr tag
 		<hr />
 	</p>
-	<p>the strong element indicates that its content has strong importance . For example : <strong>Beware</strong> The
+	<p id="strong">the strong element indicates that its content has strong importance . For example :
+		<strong>Beware</strong> The
 		dog bites</p>
-	<p>The em tag indicates emphasis that subtly changes the meaning of a sentence. For example: <br />
+	<p id="emphasis">The em tag indicates emphasis that subtly changes the meaning of a sentence. For example: <br />
 		I <em>think</em> Adarsh was first.<br />
 		I think <em>Adarsh</em> was first.<br />
 		I think Adarsh was <em>first</em>.<br />
 	</p>
-	<p>there are two elements used for marking up quotations
+	<p id="blockquoteandq">there are two elements used for marking up quotations
 		<ul>
 			<li>blockquotes: it is used for longer quotes that take up entire paragraph. <br />For example:
 				<blockquote>
@@ -43,21 +76,25 @@
 			</li>
 		</ul>
 	</p>
-	<p>For using an acronym or abbreviation you can use abbr tag. <br />For example :<abbr
+	<p id="abbreviation">For using an acronym or abbreviation you can use abbr tag. <br />For example :<abbr
 			title="National Aeronautics and Space Administration">NASA</abbr> do some crazy space stuff</p>
-	<p>When referring a piece of work such as a book , film etc the cite element can be used.<br />For example: <cite>A
+	<p id="cite">When referring a piece of work such as a book , film etc the cite element can be used.<br />For
+		example: <cite>A
 			Brief History of Time </cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
-	<p>The dfn tag can be used to explain some termology in a document for the first time. <br />For example: A<dfn>
+	<p id="definition">The dfn tag can be used to explain some termology in a document for the first time. <br />For
+		example: A<dfn>
 			black hole </dfn>is a region of space from which nothing ,not even light , can escape.</p>
 
-	<p>the address tag is used to show address of the author. Here added in last.</p>
-	<p>The ins element is used to show content that has been inserted into a document, while del element is used to show
+	<p id="address">the address tag is used to show address of the author. Here added in last.</p>
+	<p id="insertanddelete">The ins element is used to show content that has been inserted into a document, while del
+		element is used to show
 		element that are deleted from it. <br />For Example: It was the <del>worst</del><ins>best</ins> idea she had
 		ever had.</p>
-	<p>The s element is used to indicate something that is no longer relevant but that should not be deleted. <br />For
+	<p id="s">The s element is used to indicate something that is no longer relevant but that should not be deleted.
+		<br />For
 		Example: <p>PRICE: <s>$100</s> $70</p>
 
-		<p>There are three types of lists HTML provides :
+		<p id="lists">There are three types of lists HTML provides :
 			<ul>
 				<li><dfn>Ordered Lists :</dfn> ol tag is used to create ordered list with li element used for creating
 					list element</li>
@@ -68,17 +105,279 @@
 			</ul>
 		</p>
 
-		<p>links are created using the "a" element. Users can click on anything between the opening and the closing tag.
+		<p id="anchor">links are created using the "a" element. Users can click on anything between the opening and the
+			closing tag.
 			You specify which page you want to link to using the href attribute. For example<br />
-			<a href="https://www.imdb.com">IMDB</a>
+			<a href="https://www.imdb.com" target="_blank">IMDB</a>
+			<h3>Notes for "a" tag</h3>
+			<ul>
+				<li>use mailto in href of an "a" tag to open emailaddress in an email</li>
+				<li>to open a link in a new tag add target attribute with value _blank (target="_blank")</li>
+				<li>you can also travel within a page using the id attribute of the element you want to traverse
+					(href="#top")</li>
+				<li>if you want to link to a specific part of a different web page you can use the previous technique.
+					Then the syntax would be url#id (href="https://www.imdb.com/#bottom")</li>
+			</ul>
 		</p>
+		<p id="image">
+			to add an image in a page you have to use img tag which is an empty element along with alt and src
+			attributes. You can also use the title attribute for additional information. For sample see code of below
+			image. <br />
+			<a href="images/koe no katachi.jpg" target="_blank"><img src="images/koe no katachi.jpg"
+					alt="Nishimiya and Ken from Anime Koe no Katachi"
+					title="The image is from and anime called koe no katachi" width="40%" height="60%" /></a>
+		</p>
+		<p id="FiguresAndFigcaption">HTML5 added two elements for images
+			<ul>
+				<li>
+					<b>figure :</b> This element is used to contain the images and their caption so that the two are
+					associated.
 
+				</li>
+				<li><b>figcaption :</b> This element has been added in HTML5 in order to allow web page authors to add a
+					caption to an image.</li>
+			</ul>
+			The below example is an example of using fihure element .<br />
+			<figure>
+				<a href="images/my hero acadmia.png" target="_blank">
+					<img src="images/my hero acadmia.png" alt="My hero acadmia" title="My Hero Acadmia" width="45%"
+						height="50%" /></a>
+				<figcaption>
+					This is a story of how i became the number 1 super hero #My_Hero_Acadmia
+				</figcaption>
+			</figure>
+		</p>
+		<p id="table_tr_td_th_thead_tbody_tfoot">The table element is used to create a table and the contents of a table
+			are written row
+			by row.<br /> The tr element is used to encapsulate the group of td as a row in a table.<br /> The td
+			element is used to store individual cell of a table .<br /> The th element is similar to td but its purpose
+			is to represent the heading of a rwo or a column.<br />The below table is created using these elements<br />
+
+		</p>
+		<table>
+			<tr>
+				<th></th>
+				<th scope="col">Saturday</th>
+				<th scope="col">Sunday</th>
+			</tr>
+			<tr>
+				<th scope="row">Tickets sold:</th>
+				<td>120</td>
+				<td>135</td>
+			</tr>
+			<tr>
+				<th scope="row">Total sales:</th>
+				<td>$600</td>
+				<td>$675</td>
+			</tr>
+		</table>
+		<p>You can also merge the cells in a table rowwise or column wise using these two attributes:
+			<ul>
+				<li>rowspan</li>
+				<li>colspan</li>
+			</ul>
+			Below are the two tables demonstrating it.
+			<table width="500" border="2" bgcolor="#efefef">
+				<tr>
+					<th width="100" bgcolor="#cccccc"></th>
+					<th width="100" bgcolor="#cccccc">9am</th>
+					<th width="100" bgcolor="#cccccc">10am</th>
+					<th width="100" bgcolor="#cccccc">11am</th>
+					<th width="100" bgcolor="#cccccc">12am</th>
+				</tr>
+				<tr>
+					<th bgcolor="#cccccc">Monday</th>
+					<td colspan="2">Geography</td>
+					<td>Math</td>
+					<td>Art</td>
+				</tr>
+				<tr>
+					<th bgcolor="#cccccc"> Tuesday</th>
+					<td colspan="3">Gym</td>
+					<td>Home Ec</td>
+				</tr>
+			</table>
+			<table width="400" border="2" bgcolo="#efefef">
+				<tr>
+					<th width="100" bgcolor="#cccccc"></th>
+					<th width="100" bgcolor="#cccccc">ABC</th>
+					<th width="100" bgcolor="#cccccc">BBC</th>
+					<th width="100" bgcolor="#cccccc">CNN</th>
+				</tr>
+				<tr>
+					<th bgcolor="#cccccc">6am - 7pm</th>
+					<td rowspan="2">Movie</td>
+					<td>Comedy</td>
+					<td>News</td>
+				</tr>
+				<tr>
+					<th bgcolor="#cccccc">7pm - 8pm</th>
+					<td>Sport</td>
+					<td>Current Affairs</td>
+				</tr>
+			</table>
+		</p>
+		<p>There are three elements that help distinguish between the main content of the table , the first and the last
+			row and can be used to style differently<br />
+			<ul>
+				<li>thead</li>
+				<li>tbody</li>
+				<li>tfoot</li>
+			</ul>
+			Below is an example of using these three.
+			<table>
+				<thead>
+					<tr>
+						<th>MONTH</th>
+						<th>DAYS</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>January</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>February</td>
+						<td>28</td>
+					</tr>
+					<tr>
+						<td>March</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>April</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>May</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>June</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>July</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>August</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>September</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>October</td>
+						<td>31</td>
+					</tr>
+					<tr>
+						<td>November</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>December</td>
+						<td>31</td>
+					</tr>
+
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>Total days</td>
+						<td>365</td>
+					</tr>
+				</tfoot>
+			</table>
+		</p>
+		<p>These are some of the attributes which are outdated and should not be used but can encounter them in old
+			codes
+			<ul>
+				<li>
+					width
+				</li>
+				<li>
+					cell padding
+				</li>
+				<li>
+					cell spacing
+				</li>
+				<li>
+					border
+				</li>
+				<li>
+					bgcolor
+				</li>
+			</ul>
+		</p>
+		<div id="forms_and_formcontrols">
+			<p> Form controls live inside a form element. This element should always carry the action attribute and will
+				usually have a method and id attribute.</p>
+			<p>The input element is used to create several different form controls. The value of the type attribute
+				determines what kind of input they will be creating.</p>
+			<form>
+				<label>Username:</label>
+				<input type="text" name="username" /><br />
+				<label>Password:</label>
+				<input type="password" name="password" />
+				<br />
+				<label>Comments:</label>
+				<textarea name="comments">Enter your comments...</textarea>
+
+				<p>
+					<label>Genre :</label>
+					<input name="genre" value="pop" type="radio" checked="checked" id="pop" /><label
+						for="pop">Pop</label>
+					<input name="genre" value="jazz" type="radio" id="jazz" /><label for="jazz">jazz</label>
+					<input name="genre" value="rock" type="radio" id="Rock" /><label for="Rock">Rock</label>
+				</p>
+				<p>
+					<label>Music service</label>
+					<input name="music" type="checkbox" value="spotify" id="spotify" /><label
+						for="spotify">spotify</label>
+					<input name="music" type="checkbox" value="iTunes" id="iTunes" /><label for="iTunes">iTunes</label>
+				</p>
+				<p>
+					<label>
+						Device :
+					</label>
+					<select name="device">
+						<option value="iphone">iphone</option>
+						<option value="pc">pc</option>
+						<option value="radio">radio</option>
+					</select>
+				</p>
+				<fieldset>
+					<legend>Contact Details</legend>
+					<label for="email">Email:</label><br />
+					<input id="email" type="text" name="email" /><br />
+					<label for="mobile">Mobile:</label><br />
+					<input type="text" name="mobile" id="mobile" /><br />
+					<label for="telephone">Telephone:</label><br />
+					<input type="text" name="telephone" id="telephone" /><br />
+				</fieldset>
+
+				<label for="search">Search:</label><br />
+				<input type="search" id="search" name="search" placeholder="Enter the keyword" />
+				<input value="search" type="submit" />
+
+			</form>
+		</div>
+		<div id="iframes">
+			<p>An iframe is like a little window that has been cut into your page - and in that window you can see
+				another page. <br />For example:<br /></p>
+			<iframe src="../Examples/Example1/example1.html" width="450" height="350">
+			</iframe>
+		</div>
+		<a href="#welcome">TOP</a>
 		<hr />
 		<address>
 			<h2>Contact Details</h2>
-			<p><a href="adarsh911516@gmail.com">adarsh911516@gmail.com</a></p>
+			<p><a href="mailto:adarsh911516@gmail.com">adarsh911516@gmail.com</a></p>
 			<p>Q. No. DS II 13 A, Hatia Railway Colony</p>
 		</address>
+
 </body>
 
 </html>

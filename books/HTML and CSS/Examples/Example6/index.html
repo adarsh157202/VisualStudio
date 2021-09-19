@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="" method="GET" id="exampleForm1">
+        <fieldset>
+            <legend>Your Details:</legend>
+            <label for="name">Name: </label>
+            <input id="name" type="text" name="name" /><br />
+            <label for="email">Email: </label>
+            <input id="email" type="email" name="email" /><br />
+        </fieldset>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <br />
+            <label for="source">How did you hear about us? </label>
+            <select id="source" name="source">
+                <option value="google">Google</option>
+                <option value="facebook">Facebook</option>
+                <option value="friend">Friend</option>
+                <option value="ads">Ads</option>
+                <option value="others">Others</option>
+            </select>
+            <br />
+            <br />
+            <label>Would you visit again?</label><br />
+            <label><input type="radio" name="visit" value="yes" />Yes</label>
+            <label><input type="radio" name="visit" value="no" />No</label>
+            <label><input type="radio" name="visit" value="maybe" />Maybe</label>
+            <br />
+            <label>Comments:<br /><textarea rows="4" cols="40"></textarea></label>
+            <br />
+            <label><input type="checkbox" checked name="subscribe" />Sign me up for email updates</label>
+            <br />
+            <input type="submit" name="submit" value="Submit Review" />
+        </fieldset>
+    </form>
+</body>
+
+</html>

@@ -2,6 +2,19 @@
 
 <head>
 	<title>My First Web Page</title>
+	<link href="css/styles.css" type="text/css" rel="stylesheet">
+	<style type="text/css">
+		#example2 {
+			width: 450;
+			height: 150;
+			background-color: rgb(185, 179, 175);
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		#example2 h1 {
+			color: white;
+		}
+	</style>
 </head>
 
 <body>
@@ -32,7 +45,11 @@
 		<li><a href="#table_tr_td_th_thead_tbody_tfoot">table_tr_td_th_thead_tbody_tfoot</a></li>
 		<li><a href="#forms_and_formcontrols">forms_and_formcontrols</a></li>
 		<li><a href="#iframes">iFrames</a></li>
-
+		<li><a href="#video">video</a></li>
+		<li><a href="#audio">audio</a></li>
+		<li><a href="#css">CSS</a></li>
+		<li><a href="#css_colors">CSS - Color</a></li>
+		<li><a href="#css_text">CSS - TEXT</a></li>
 	</ul>
 	<div id="heading">
 		<p>These are heading tags</p>
@@ -369,6 +386,93 @@
 				another page. <br />For example:<br /></p>
 			<iframe src="../Examples/Example1/example1.html" width="450" height="350">
 			</iframe>
+		</div>
+		<div id="video">
+			<video src="images/puppy.mp4" poster="images/koe no katachi.jpg" width="450" height="350" preload="auto"
+				controls loop>
+				<p>A video of puppy playing in snow</p>
+			</video>
+		</div>
+		<div id="audio">
+			<audio src="images/test-audio.ogg" controls autoplay>
+				<p>This browser doesnot support our browser format</p>
+			</audio>
+		</div>
+
+		<div id="css">
+			<p>CSS allows you to create rules that specify how the content of an element should look like .Below are few
+				of the example</p>
+			<p>The &lt; link &gt; element can be used in a HTML document to tell the browser where to find the CSS file
+				used to style the page. It is an empty element and lives inside the &lt; head &gt; element</p>
+			<div id="example1">
+				<h1>Potatoes</h1>
+				<p>There are dosens of different potato varieties. They are usually described as early, second early and
+					maincrop potatoes.</p>
+			</div>
+
+			<p>You can also include css rules within an html page by placing them inside a &lt; style &gt; element which
+				usually sits inside &lt; head &gt; element.</p>
+			<div id="example2">
+				<h1>Potatoes</h1>
+				<p>There are dosens of different potato varieties. They are usually described as early, second early and
+					maincrop potatoes.</p>
+			</div>
+			<p>
+				If there are two or more rules that apply to the same element it is important to understand which will
+				take precedence.
+				<ul>
+					<li><b>LAST RULE: </b>If the two selectors are identical the latter of the two will take precedence.
+					</li>
+					<li><b>SPECIFICITY: </b>If one selector is nore specific than the others, the more specific rule
+						will take precedence over more general ones.</li>
+				</ul>
+				Example:
+				<div id="cascade">
+					<h1>Potatoes</h1>
+					<p id="intro">There are <i>dozens</i> of different <b>potato</b> varieties.</p>
+					<p>They are usually described as
+						early, second early and maincrop potatoes.</p>
+				</div>
+			</p>
+			<p id="inheritance">
+				Some properties like font-family is inherited by child elements. This is to save time so that you dont
+				have to apply the same property again and again. But this is not followed by every property there. You
+				can check with backgorund-color or border properties; they are not inherited as this could make the page
+				quite messy. However you can force a lot of properties to inherit values from parent by using inherit
+				for the value of properites. For Example:
+				<div id="inheritance_example">
+					<div id="inheritance_example_page">
+						<h1>Potatoes</h1>
+						<p>
+							There are dozens of different potato varieties.
+						</p>
+						<p>
+							They are usually described as early , second early and maincrop potatoes.
+						</p>
+					</div>
+
+				</div>
+			</p>
+		</div>
+		<div id="css_colors">
+			<div id="css_colors_example1">
+				<h1>Marine Biology</h1>
+				<h2>The Composition of Seawater</h2>
+				<p>Almost anything can be found in seawater. This includes dissolved materials from Earth's crust as
+					well as
+					materials released from organisms. The most important components of seawater that influence life
+					forms
+					are salinity, temperature, dissolved gaese( mostly oxygen and carbon dioxide), nutrients and pH.
+					These
+					elements vary in their composition as well as in their influence on marine life.</p>
+			</div>
+		</div>
+		<div id="css_text">
+			<p>The properties that allow you to control the appearance of text can be split into two groups.</p>
+			<ul>
+				<li>Those that directly affect the font and its appearance</li>
+				<li>Those that would have same efect on text no matter what font you were using</li>
+			</ul>
 		</div>
 		<a href="#welcome">TOP</a>
 		<hr />
